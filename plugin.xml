@@ -1,0 +1,24 @@
+<plugin name='excel-export' version='0.1.6' grailsVersion='2.0 &gt; *'>
+  <author>Jakub Nabrdalik</author>
+  <authorEmail>jakubn@gmail.com</authorEmail>
+  <title>Excel Export Plugin</title>
+  <description>This plugin helps you export data in Excel (xlsx) format, using Apache POI.</description>
+  <documentation>https://github.com/TouK/excel-export/blob/master/README.md</documentation>
+  <type>ExcelExportGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.apache.poi' name='poi-ooxml' version='3.7' />
+      <dependency group='org.apache.poi' name='poi' version='3.7' />
+      <dependency group='dom4j' name='dom4j' version='1.6.1' />
+      <dependency group='org.apache.poi' name='poi-ooxml-schemas' version='3.7' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
